@@ -1,5 +1,6 @@
 import React from 'react'
 import { Phone,Mail} from 'lucide-react'
+import logo from "../asserts/image/logo.png"
 export default function Navbar() {
   return (
     <>
@@ -8,7 +9,7 @@ export default function Navbar() {
     <div className="contianer-fluid ">
     <div className="navbar-top ">
        <div className="nav-logo">
-        <h3 >JMD ENTERPRISES</h3>
+        <img src={logo} alt="" height={70} width={70} />
        </div>
        <div className="nav-con">
        <span> <Phone color='red'className='me-2' /><a href="tel:+917291993667" className='me-5'>+91 7291993667</a></span>

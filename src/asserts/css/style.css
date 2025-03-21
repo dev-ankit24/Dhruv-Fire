@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #f3f3f3;
+}
 /* navbar */
 .navbar-list{
     background:#330000;
@@ -62,6 +65,7 @@
     background: red;
 }
 /* about */
+
 .about>h3{
    color: #333333;
    font-weight: 500;
