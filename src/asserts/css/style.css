@@ -32,7 +32,7 @@ body{
 .navbar-top{
     display: flex;
     height: 6rem;
-    width: 100vw;
+    width: 90vw;
     /* background: pink; */
     align-items: center;
 }
@@ -82,7 +82,36 @@ body{
 
 
 
-
+.socil-main1{
+    background: #333333;
+}
+.social-icon {
+    width: 60px;
+    height: 60px;
+    background: #ffffff; /* Light background for icon */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .social-icon i {
+    font-size: 24px;
+    color: #302f2f;
+  }
+  .social-name{
+    margin-top: 5px;
+  }
+  .social-main {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .social-name>h5,p,a{
+      color: white;
+      text-decoration: none;
+  }
 
 
 
