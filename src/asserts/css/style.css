@@ -64,6 +64,14 @@ body{
 .nav-second{
     background: red;
 }
+
+
+/* carsol */
+
+.carousel-item>img{
+    height: 35rem;
+    object-fit: fill;
+}
 /* about */
 
 .about>h3{
@@ -95,7 +103,7 @@ body{
     justify-content: center;
     margin: 0 auto; /* Center horizontally */
   }
-  
+ 
   .social-icon i {
     font-size: 24px;
     color: #302f2f;

@@ -1,7 +1,7 @@
 import React from 'react'
-import slider1 from "../../asserts/image/slider1.jpg"
-import slider2 from "../../asserts/image/slider2.jpg"
-import slider3 from "../../asserts/image/slider3.jpg"
+import slider1 from "../../asserts/image/sldr1.png"
+import slider2 from "../../asserts/image/sldr2.jpg"
+import slider3 from "../../asserts/image/sldr3.jfif"
 export default function Slider() {
   return (
   <>
