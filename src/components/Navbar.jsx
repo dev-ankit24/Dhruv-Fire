@@ -26,9 +26,16 @@ export default function Navbar() {
     <div className="container-fluid">
     <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
-    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
+   <div className="toggle-mob ">
+   <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon  "></span>
+      
     </button>
+    <form class="d-flex " role="search">
+        <input class="form-control  " type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn bg-danger text-light" type="submit">GO</button>
+      </form>
+   </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -132,10 +139,12 @@ export default function Navbar() {
           <a class="nav-link " aria-disabled="true">Contact US</a>
         </li>
       </ul>
+      <div className="serch-mob">
       <form class="d-flex" role="search">
         <input class="form-control " type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn bg-danger text-light" type="submit">GO</button>
       </form>
+      </div>
     </div>
   </div>
     </nav>

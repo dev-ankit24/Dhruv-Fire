@@ -65,7 +65,10 @@ body{
     background: red;
 }
 
-
+.toggle-mob{
+    display: none;
+   
+}
 /* carsol */
 
 .carousel-item>img{
@@ -185,4 +188,15 @@ body{
         height: 20rem;
         object-fit: cover;
     }
+    .toggle-mob{
+        display: flex;
+       
+    }
+    /* mobile scree */
+    .serch-mob{
+        display: none;
+    }
+    .toggle-mob button {
+        margin-right: 10px; /* 5px ka gap */
+      }
   }

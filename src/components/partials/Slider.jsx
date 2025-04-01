@@ -1,5 +1,5 @@
 import React from 'react'
-import slider1 from "../../asserts/image/sldr1.png"
+import slider11 from "../../asserts/image/slider11.jpg"
 import slider2 from "../../asserts/image/sldr2.jpg"
 import slider3 from "../../asserts/image/sldr3.jfif"
 export default function Slider() {
@@ -9,7 +9,7 @@ export default function Slider() {
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={slider1} class="d-block w-100" alt="..."/>
+      <img src={slider11} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src={slider2} class="d-block w-100" alt="..."/>
