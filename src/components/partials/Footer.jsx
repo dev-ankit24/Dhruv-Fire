@@ -9,9 +9,9 @@ export default function Footer() {
           {/* Address Section */}
           <div className="col-md-4">
             <h5>Quick Contact </h5>
-            <p> <MapPin  className='me-1'/>H.No.214A, Pitampura New Delhi-110034</p>
-        <p>    <Mail className='me-1'/> <a href="mailto:jmdarun2020@gmail.com">jmdarun2020@gmail.com</a> </p>
-         <p>  <Phone className='me-1'/> <a href="tel:++917291993667">+91 7291993667</a> </p>
+            <p> <MapPin  className='me-1'/>A-1, First Floor, Pehlad Market, Karol Bagh,New Delhi</p>
+        <p>    <Mail className='me-1'/> <a href="mailto:info@perfectconsultancy.co">info@perfectconsultancy.co</a> </p>
+         <p>  <Phone className='me-1'/> <a href="tel:+91 9971522879">+91 9971522879</a> </p>
           </div>
 
           {/* General Links */}

@@ -1,17 +1,15 @@
-import pr1 from "./asserts/image/pr1.jpeg"
-import pr2 from "./asserts/image/pr2.jpg";
-import pr3 from "./asserts/image/pr3.jpg";
-import pr4 from "./asserts/image/pr4.jpg";
-import pr5 from "./asserts/image/pr5.jpeg";
-import pr6 from "./asserts/image/pr6.jpeg";
-import pr7 from "./asserts/image/pr7.jpeg";
-import pr8 from "./asserts/image/pr8.jpeg";
-import accessd from "./asserts/image/accessd.jpg";
-import audio from "./asserts/image/audio.png";
-import electri from "./asserts/image/electric.jpeg";
-import epa from "./asserts/image/epa.jpg";
-import publice from "./asserts/image/publice.jpg";
-import slider11 from "./asserts/image/slider11.jpg";
+import pr1 from "./asserts/image/home/1.png"
+import pr2 from "./asserts/image/home/2.png";
+import pr3 from "./asserts/image/home/3.png";
+import pr4 from "./asserts/image/home/4.png";
+import pr5 from "./asserts/image/home/51.png";
+import pr6 from "./asserts/image/home/6.png";
+import pr7 from "./asserts/image/home/7.png";
+import pr8 from "./asserts/image/home/8.png";
+import accessd from "./asserts/image/home/door.png";
+import audio from "./asserts/image/home/10.png";
+import epa from "./asserts/image/home/11.png";
+import publice from "./asserts/image/home/9.png";
 
 
 const data =[
@@ -54,7 +52,7 @@ const data =[
     },
     {
         id:9,
-        name:"Electronic Private Automatic Branch Exchange (EPABH)",
+        name:"Electronic Private Automatic ",
         img:epa
     }
     , {

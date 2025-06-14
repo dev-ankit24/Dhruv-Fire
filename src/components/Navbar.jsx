@@ -1,6 +1,6 @@
 import React from 'react'
 import { Phone,Mail} from 'lucide-react'
-import logo from "../asserts/image/logo.png"
+import logo from "../asserts/image/home/logo.png"
 export default function Navbar() {
   return (
     <>
@@ -9,11 +9,12 @@ export default function Navbar() {
     <div className="contianer-fluid ">
     <div className="navbar-top ">
        <div className="nav-logo">
-        <img src={logo} alt="" height={70} width={70} />
+        {/* <h4>My Website</h4> */}
+        <img src={logo} alt="" height={90} width={100} />
        </div>
        <div className="nav-con">
-       <span> <Phone color='red'className='me-2' /><a href="tel:+917291993667" className='me-5'>+91 7291993667</a></span>
-        <span> <Mail color='red ' className='me-2' /><a href="mailto:jmdarun2020@gmail.com">jmdarun2020@gmail.com</a></span>
+       <span> <Phone color='red'className='me-2' /><a href="tel:+91 9971522879" className='me-5'>+91 9971522879</a></span>
+        <span> <Mail color='red ' className='me-2' /><a href="mailto:info@perfectconsultancy.co">info@perfectconsultancy.co</a></span>
 
        </div>
     </div>

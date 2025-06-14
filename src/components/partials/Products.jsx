@@ -6,7 +6,7 @@ export default function Products() {
   return (
     <>
     <div className="container">
-        <div className="container-fluid m-auto">
+        <div className="container-fluid ">
             <div className="row m-auto" >
         <h3 className=' text-center mt-5'>Hot <span className='text-danger'>Products</span></h3>
 
@@ -14,14 +14,22 @@ export default function Products() {
                 {
                   data.map((item, index)=>{
                     return(
-                      <div className="col-md-3 mt-3 m-auto" key={index}>
-                      <div class="card" style={{width: "18rem"}}>
-                  <img src={item.img} class="card-img-top" height={230} width={100} alt="..."/>
-                <div class="card-body">
-                <p class="card-text text-danger text-center " style={{fontWeight:500}}>{item.name}</p>
-               </div>
-               </div>
-               </div>
+              //         <div className="col-md-3 mt-3  mb-3" key={index}>
+              //         <div class="card"  >
+              //     <img src={item.img} class="card-img-top" height={220} width={"100%"} alt="..."/>
+              //   <div class="card-body">
+              //   <p class="card-text text-danger text-center " style={{fontWeight:500}}>{item.name}</p>
+              //  </div>
+              //  </div>
+              //       </div>
+                    <div class=" col-md-3 mt-3  mb-3  card-hover position-relative overflow-hidden">
+                        <img src={item.img} class="card-img-top" height={100} width={"100%"} alt="..."/>
+                        
+                        <div class="overlay d-flex align-items-center justify-content-center">
+                          <div class="text text-dark fw-bold">{item.name}</div>
+                        </div>
+                    </div>
+
 
                     )
                   })
@@ -43,7 +51,7 @@ export default function Products() {
                  </div>
                   <div className="social-name">
                     <h5>Location</h5>
-                    <p>H.No.214A, Pitampura New Delhi-110034</p>
+                    <p>A-1, First Floor, Pehlad Market, Karol Bagh,New Delhi</p>
                   </div>
               </div>
             </div>
@@ -57,7 +65,7 @@ export default function Products() {
                  </div>
                   <div className="social-name">
                     <h5>Mobile</h5>
-                    <a href="tel:++917291993667">+91 7291993667</a>
+                    <a href="tel:+91 9971522879">+91 9971522879</a>
                   </div>
               </div>
             </div>
@@ -71,7 +79,7 @@ export default function Products() {
                  </div>
                   <div className="social-name">
                     <h5>Email</h5>
-                    <a href="mailto:jmdarun2020@gmail.com">jmdarun2020@gmail.com</a>
+                    <a href="mailto:info@perfectconsultancy.co">info@perfectconsultancy.co</a>
                   </div>
               </div>
             </div>
