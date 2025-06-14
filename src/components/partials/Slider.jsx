@@ -1,7 +1,8 @@
 import React from 'react'
 import slider11 from "../../asserts/image/slider11.jpg"
 import slider2 from "../../asserts/image/sldr2.jpg"
-import slider3 from "../../asserts/image/sldr3.jfif"
+import slider4 from "../../asserts/image/slider-img3.png"
+import slider5 from "../../asserts/image/slider-img4.jpg"
 export default function Slider() {
   return (
   <>
@@ -15,8 +16,12 @@ export default function Slider() {
       <img src={slider2} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src={slider3} class="d-block w-100" alt="..."/>
+      <img src={slider4} class="d-block w-100" alt="..."/>
     </div>
+    <div class="carousel-item">
+      <img src={slider5} class="d-block w-100" alt="..."/>
+    </div>
+    
   </div>
   <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
     <span class="carousel-control-prev-icon bg-danger " aria-hidden="true"></span>
